@@ -13,3 +13,9 @@ def my_first_func():
     print("It works!")
     
 my_first_func()
+def HappyBday(name):
+    print("Happy birthday " + name + "!!!")
+    
+HappyBday("Cersei")
+HappyBday("Jamie")
+HappyBday("Luna")
