@@ -24,3 +24,14 @@ def mult_2_nums(num1 , num2): #parameter
     
 mult_2_nums(5,4) #arguments
 mult_2_nums(10,-3.5)
+
+num = int(input("Enter a number: "))
+if num > 5:
+	print("Greater than 5!")
+if num < 5:
+    print("End")
+num = int(input("Enter a number: "))
+if num >= 5:
+	print("Greater than or equal to 5!")
+else:
+    print("This number is less than 5")
