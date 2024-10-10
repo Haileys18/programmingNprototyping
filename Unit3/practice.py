@@ -33,5 +33,16 @@ if num < 5:
 num = int(input("Enter a number: "))
 if num >= 5:
 	print("Greater than or equal to 5!")
+
+num = int(input("Enter a number: "))
+if num >0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Your number is 0.")
+
+
+
 else:
     print("This number is less than 5")
