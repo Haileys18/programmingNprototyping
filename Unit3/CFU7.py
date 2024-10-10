@@ -1,3 +1,7 @@
+#Hailey Sooknanan
+#10/10/2024
+#Period 5-6
+#Creating two functions to find the sum of three numbers and average of the three numbers the user inputs.
 x = int(input("Enter a number: "))
 y = int(input("Enter a number: "))
 z = int(input("Enter a number: "))
