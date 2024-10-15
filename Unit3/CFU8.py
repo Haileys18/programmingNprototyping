@@ -21,6 +21,6 @@ if word == "yes" or word == "Yes":
     cost = float(input("What is the cost?"))
     people = int(input("How many people"))
     total = cost/people
-    print("total per person: " + str(total) )
+    print("total per person: $" + str(total) )
 else:
     print("NO?! So who is cooking?")
