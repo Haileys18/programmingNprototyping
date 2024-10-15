@@ -17,7 +17,7 @@ else:
 #Grubhub deliveries asking user the order
 word = input("Did you order delivery?")
 
-if word == "yes":
+if word == "yes" or word == "Yes":
     cost = int(input("What is the cost?"))
     people = int(input("How many people"))
     total = cost/people
