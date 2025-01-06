@@ -3,7 +3,7 @@
 #Period 5-6
 #CFU 17: Review + build in formatting functions
 
-box = "Lolipop"
+box = "superman"
 
 def formating(box):
     userInput = int(input("choice?(1,2,3,4,5,6,7)"))
@@ -13,7 +13,7 @@ def formating(box):
         print(box)
     elif userInput == 2:
         #find and return the postion of a value in the string
-        print(box.find("i"))
+        print(box.find("a"))
     elif userInput == 3:
         #return true if the varaible is a number
         print(box.isdigit())
@@ -25,7 +25,7 @@ def formating(box):
         print(box.upper())
     elif userInput == 6:
         #replace an index item for another item
-        print(box.replace("o","i"))
+        print(box.replace("m","l"))
     else:
         print("not a valid option")
     
