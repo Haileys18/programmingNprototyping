@@ -1,0 +1,32 @@
+#Hailey Sooknanan
+#1/6/2025
+#Period 5-6
+#CFU 17: Review + build in formatting functions
+
+box = "Lolipop"
+
+def formating(box):
+    userInput = int(input("choice?(1,2,3,4,5,6,7)"))
+    if userInput== 1:
+        #Capitalize the first letter of the string
+        box.capitalize()
+        print(box)
+    elif userInput == 2:
+        #find and return the postion of a value in the string
+        print(box.find("i"))
+    elif userInput == 3:
+        #return true if the varaible is a number
+        print(box.isdigit())
+    elif userInput == 4:
+        #output the variable all lower case
+        print(box.lower())
+    elif userInput == 5:
+        #output the variable all uppercase
+        print(box.upper())
+    elif userInput == 6:
+        #replace an index item for another item
+        print(box.replace("o","i"))
+    else:
+        print("not a valid option")
+    
+formating(box)
