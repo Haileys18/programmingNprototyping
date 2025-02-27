@@ -1,0 +1,40 @@
+#Hailey Sooknanan
+#2/27
+#Period 5-6
+#Python Practice
+
+#Volume of a sphere
+import math
+def volume(radius):
+    x = (4/3)*math.pi*(radius*3)
+    return x
+r = volume(5)
+print(f"1. The volume of the sphere is {r:.2f}")
+
+#Whole sale Book Cost
+def W_cost(copies):
+    bookPrice=24.95
+    shipFirst=3
+    Shipafter=0.75
+    discount=0.40
+    books_Total = (bookPrice*(1-discount)*copies)
+    shipcost= shipFirst+(Shipafter*(copies-1))
+    Total = books_Total + shipcost
+    print(f"2. The total wholsale price is ${Total:.2f}")
+W_cost(60)
+
+#Running time Calculation
+def running_time(s_h,s_m):
+    easy_pace = 8*60+15
+    tempo_pace = 7*60+12
+    total_time_sec= (2*easy_pace)+(3*tempo_pace)
+    total_min = total_time_sec//60
+    total_sec = total_time_sec%60
+    end_time_min = s_m + total_min
+    end_hour=s_h
+    if end_time_min>=60:
+        end_hour+= end_time_min//60
+        total_min += total_min//60
+    return end_hour,total_min
+end_h,end_m = running_time(6,52)
+print(f"3. you'll have breakfast at {end_h}:{end_m} AM.")
